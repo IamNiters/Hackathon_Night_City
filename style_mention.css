@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+body {
+  background: #000000;
+
+}
+
+
+
+ul {
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  li {
+    float: left;
+   
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(0, 0, 0);
+  }
+
+
+
+.videofond {
+    width: 90%;
+ }
+
+.testedroite {
+  padding-left: 10px;
+  
+  font-size: xx-large;
+  display:solid;
+  width: 70%;
+  background-color:black
+  
+
+}
+.row {
+  display: flex;
+
+}
+
+
+.t {
+  
+  color: white
+
+
+}
+
+.ti {
+  color: white;
+  
+  
+  border: 0;
+  outline: none;
+  background-color: var(--orange-color);
+  color: var(--black-color);
+  cursor: pointer;
+  padding: 20px 25px;
+  position: relative;
+  font-family: Tomorrow, sans-serif;
+  font-size: .85rem;
+  text-transform: uppercase;
+}
+
+.o {
+  color: white;
+}
+
+.p {
+  color: white;
+  border: 0;
+  outline: none;
+  background-color: var(--orange-color);
+  color: var(--black-color);
+  cursor: pointer;
+  padding: 20px 25px;
+  position: relative;
+  font-family: Tomorrow, sans-serif;
+  font-size: .85rem;
+  text-transform: uppercase;
+}
+
+
+footer {
+  color: white
+}
+
+:root {
+  --yellow-color: #fcee09; 
+  --red-color: #ff003c;
+  --black-color: #050a0e;
+  --blue-color: #00f0ff;
+  --orange-color: #EC5824;
+}
+
+
+.btn1 {
+  
+  display: inline;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  outline: none;
+  background-color: var(--orange-color);
+  color: var(--black-color);
+  cursor: pointer;
+  padding: 20px 25px;
+  position: relative;
+  font-family: Tomorrow, sans-serif;
+  font-size: .85rem;
+  text-transform: uppercase;
+
+}
+.btn1::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: -14px;
+  left: -13px;
+  background-color: var(--orange-color);
+  border-top: 2px solid var(--orange-color);
+  transform: rotate(45deg);
+}
+
+.btn1::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -14px;
+  right: -13px;
+  background-color: var(--orange-color);
+  border-bottom: 2px solid var(--orange-color);
+  transform: rotate(45deg);
+}
+
+
+.btn2 {
+  
+  display: inline;
+  left: 0%;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  outline: none;
+  background-color: var(--orange-color);
+  color: var(--black-color);
+  cursor: pointer;
+  padding: 20px 15px;
+  position: relative;
+  font-family: Tomorrow, sans-serif;
+  font-size: .85rem;
+  text-transform: uppercase;
+
+}
+.btn2::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: -14px;
+  left: -13px;
+  background-color: var(--orange-color);
+  border-top: 2px solid var(--orange-color);
+  transform: rotate(45deg);
+}
+
+.btn2::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -14px;
+  right: -13px;
+  background-color: var(--orange-color);
+  border-bottom: 2px solid var(--orange-color);
+  transform: rotate(45deg);
+}
+.btn3 {
+  
+  display: inline;
+  left: 0%;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  outline: none;
+  background-color: var(--orange-color);
+  color: var(--orange-color);
+  cursor: pointer;
+  padding: 20px 25px;
+  position: relative;
+  font-family: Tomorrow, sans-serif;
+  font-size: .85rem;
+  text-transform: uppercase;
+
+}
+.btn3::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: -14px;
+  left: -13px;
+  background-color: var(--orange-color);
+  border-top: 2px solid var(--orange-color);
+  transform: rotate(45deg);
+}
+
+.btn3::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -14px;
+  right: -13px;
+  background-color: var(--orange-color);
+  border-bottom: 2px solid var(--orange-color);
+  transform: rotate(45deg);
+}
+.btn4 {
+  
+  display: inline;
+  
+  left: 0%;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  outline: none;
+  background-color: var(--orange-color);
+  color: var(--black-color);
+  cursor: pointer;
+  padding: 20px 25px;
+  position: relative;
+  font-family: Tomorrow, sans-serif;
+  font-size: .85rem;
+  text-transform: uppercase;
+
+}
+.btn4::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: -14px;
+  left: -13px;
+  background-color: var(--orange-color);
+  border-top: 2px solid var(--orange-color);
+  transform: rotate(45deg);
+}
+
+.btn4::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -14px;
+  right: -13px;
+  background-color: var(--orange-color);
+  border-bottom: 2px solid var(--orange-color);
+  transform: rotate(45deg);
+}
+
+
+
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Tomorrow, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 26px;
+    background-color: var(--orange-color);
+}
+
+.mention{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Tomorrow;
+    margin-bottom: 26px;
+    background-color: var(--orange-color);
+}
+
+.partie{
+    font-size: 42px;
+}
