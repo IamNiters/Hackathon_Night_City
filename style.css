@@ -62,8 +62,7 @@ ul {
 }
 
 .ti {
-  color: white
-  
+  color: white;
   
   border: 0;
   outline: none;
@@ -94,10 +93,10 @@ ul {
   font-size: .85rem;
   text-transform: uppercase;
 }
-}
+
 
 footer {
-  color: white
+  color: white;
 }
 
 :root {
@@ -275,4 +274,32 @@ footer {
   background-color: var(--orange-color);
   border-bottom: 2px solid var(--orange-color);
   transform: rotate(45deg);
+}
+
+
+
+.avenir {
+  max-width: 100%;
+  min-width: 100%;
+z-index: 1;
+
+
+
+}
+
+.depression {
+  color: white;
+  display: block;
+  position: absolute;
+  top: 1300px;
+  left: 500px;
+  font-family: Tomorrow, sans-serif;
+  text-transform: uppercase;
+  font-size:xx-large;
+  z-index: 2;
+ 
+
+  
+
+
 }
