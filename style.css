@@ -111,7 +111,7 @@ footer {
 
 .btn1 {
   
-  display: block;
+  display: inline;
   left: 0;
   align-items: center;
   justify-content: center;
@@ -154,7 +154,7 @@ footer {
 
 .btn2 {
   
-  display: block;
+  display: inline;
   left: 0%;
   align-items: center;
   justify-content: center;
@@ -195,7 +195,7 @@ footer {
 }
 .btn3 {
   
-  display: block;
+  display: inline;
   left: 0%;
   align-items: center;
   justify-content: center;
@@ -236,7 +236,7 @@ footer {
 }
 .btn4 {
   
-  display: block;
+  display: inline;
   
   left: 0%;
   align-items: center;
