@@ -21,6 +21,7 @@ body {
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
+    color: white;
   }
   
   .about-section {
@@ -32,6 +33,7 @@ body {
   
   .container {
     padding: 0 16px;
+    
   }
   
   .container::after, .row::after {
@@ -66,3 +68,4 @@ body {
       display: block;
     }
   }
+
